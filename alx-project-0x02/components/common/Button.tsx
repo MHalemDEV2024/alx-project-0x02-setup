@@ -1,4 +1,4 @@
-import { ButtonProps } from "@/interfaces";
+import { type ButtonProps } from "@/interfaces";
 import clsx from "clsx";
 
 const Button = ({ size = "medium", shape = "rounded-md", children, onClick }: ButtonProps) => {
